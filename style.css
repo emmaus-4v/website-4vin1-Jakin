@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #7e7e7e;  
+    background-image:url("afbeeldingen/background.jpg");
     
-    color: #303030;
+    color: white;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -58,7 +58,7 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin-top: 70px;
     padding: 0;
     background-color: lightgreen;
     overflow: hidden;
