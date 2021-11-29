@@ -3,7 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image:url("afbeeldingen/background.jpg");
+    background-image:url("afbeeldingen/background.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
     
     color: white;
     font: Verdana, Arial, Sans-Serif;
@@ -41,6 +44,12 @@ img.zweefLinks {
     margin-right: 15px;
 }
 
+img.logo {
+    width:500px;
+
+
+}
+
 .smalltext {
     font-size: 0.7em;
 }
@@ -58,7 +67,7 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin-top: 70px;
+    margin-top: 30px;
     padding: 0;
     background-color: lightgreen;
     overflow: hidden;
