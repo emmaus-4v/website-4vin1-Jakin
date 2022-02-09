@@ -5,7 +5,8 @@ html, body {
     padding: 0;
     background-image:url("afbeeldingen/background.jpeg");
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover ;
+    background-size:350%;
 
     
     color: white;
@@ -34,6 +35,24 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+}
+
+img.zweeflink {
+    float: right;
+    margin: 20px;
+    margin-bottom:500px;
+    width: 120px;
+    height:80%;
+    padding-left:50px;
+}
+
+img.zweeflink2 {
+    float: left;
+    margin-top: 50px;
+    margin-right:30px;
+    margin-left: 0px;
+    width: 150px;
+    height:80%;
 }
 
 
