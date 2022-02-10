@@ -1,12 +1,19 @@
 /* Basislayout */
 
+body.different {
+    background-color: rgb(0, 0, 0);
+}
+body.normal{
+ background-image:url("afbeeldingen/background.jpeg");   
+ background-repeat:no-repeat;
+ background-size: cover;
+}
+
 html, body {
     height: 100%;
     padding: 0;
-    background-image:url("afbeeldingen/background.jpeg");
-    background-repeat:no-repeat;
-    background-size: cover ;
-    background-size:350%;
+    
+    
 
     
     color: white;
@@ -97,8 +104,14 @@ img.headerlogo {
 }
 
 a {
-    color: skyblue;
-    text-decoration: none;
+    color: rgb(221, 125, 125);
+    text-decoration:none;
+    
+}
+
+.lols {
+    color: rgb(117, 139, 214);
+    text-decoration:none;
 }
 
 a:hover {
@@ -108,7 +121,14 @@ a:hover {
 .vriendengroep{ 
     font-weight: bold;
     text-align: center;
+    color:red;
    }
+
+.locaties{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(0, 183, 255);
+}
 
    
 
