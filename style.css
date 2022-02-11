@@ -1,7 +1,10 @@
 /* Basislayout */
 
 body.different {
-    background-color: rgb(0, 0, 0);
+    background-image:url("afbeeldingen/aesthetic.jpeg");
+    background-repeat:no-repeat;
+    background-size:1500px;
+
 }
 body.normal{
  background-image:url("afbeeldingen/background.jpeg");   
@@ -109,9 +112,23 @@ img.zweeflink4 {
     0% {
         transform: translateX(0px)}
     50% {
-        transform: translateX(-200px) }
+        transform: translateX(200px) }
     100% {
         transform: translateX(0px)}}
+
+        .slidez2 { animation-name: slide;
+            animation-duration: 15s;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            }
+        @keyframes slide{
+        0% {
+            transform: translateX(-50px)}
+        50% {
+            transform: translateX(200px) }
+        100% {
+            transform: translateX(0px)}}
 
 .linkjes{font-size:20px;}
 
@@ -188,6 +205,8 @@ nav ul {
     overflow: hidden;
     float:left;
     margin:10px;
+    margin-right:20px;
+   
 
 }
 
