@@ -85,6 +85,33 @@ img.zweeflink4 {
 
 /* specifieke stijlen */
 
+.color-animation{
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes colors {
+    25% {color:blue;}
+    50% {color:rgb(255, 145, 0);}
+    75% {color: green;}
+    100% {color: red}}
+
+    .slidez{ animation-name: slide;
+        animation-duration: 15s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        }
+    @keyframes slide{
+    0% {
+        transform: translateX(0px)}
+    50% {
+        transform: translateX(-200px) }
+    100% {
+        transform: translateX(0px)}}
 
 .linkjes{font-size:20px;}
 
